@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EasyCodeTableSetting">
+    <option name="tableInfoMap">
+      <map>
+        <entry key="chatbot.counters">
+          <value>
+            <TableInfoDTO>
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map />
+                    </option>
+                    <option name="name" value="Id" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map />
+                    </option>
+                    <option name="name" value="next" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="Counters" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="chatbot-web" />
+              <option name="savePackageName" value="com.evydtech.chatbot.im.constant" />
+              <option name="savePath" value="./chatbot-web/src/main/java/com/evydtech/chatbot/im/constant" />
+              <option name="templateGroupName" value="spring-data-mongodb" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="hm_chatbot_dev.im_chat_conversation">
+          <value>
+            <TableInfoDTO>
+              <option name="comment" value="Im chat conversation table" />
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="im chat converstation primary id" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="unique no" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="ccNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="user no (unique)" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="userNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="cc name" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="name" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="1: admin take over" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="takeOverStatus" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="create time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="createTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="update time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="updateTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="ImChatConversation" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="chatbot-web" />
+              <option name="savePackageName" value="com.evydtech.chatbot.im.domain.repository" />
+              <option name="savePath" value="./chatbot-web/src/main/java/com/evydtech/chatbot/im/domain/repository" />
+              <option name="templateGroupName" value="" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="hm_chatbot_dev.im_chat_converstation">
+          <value>
+            <TableInfoDTO>
+              <option name="comment" value="Im chat conversation table" />
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="im chat converstation primary id" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="unique no" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="ccNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="user no (unique)" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="userNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="cc name" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="name" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="1: admin take over" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="takeOverStatus" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="create time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="createTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="update time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="updateTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="ImChatConverstation" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="chatbot-web" />
+              <option name="savePackageName" value="com.evydtech.chatbot.im.domain.repository" />
+              <option name="savePath" value="./chatbot-web/src/main/java/com/evydtech/chatbot/im/domain/repository" />
+              <option name="templateGroupName" value="Default" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="hm_chatbot_dev.im_message">
+          <value>
+            <TableInfoDTO>
+              <option name="comment" value="Im message table" />
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="im message primary id" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="message no (unique)" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="messageNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="chat converstation no" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="ccNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="from user no" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="fromUserNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="to user no" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="toUserNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="take over user" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="takeOverUserNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="send time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="sendTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="create time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="createTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="update time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="updateTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="ImMessage" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="chatbot-web" />
+              <option name="savePackageName" value="com.evydtech.chatbot.im.domain.repository" />
+              <option name="savePath" value="./chatbot-web/src/main/java/com/evydtech/chatbot/im/domain/repository" />
+              <option name="templateGroupName" value="" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="hm_chatbot_dev.im_message_extend">
+          <value>
+            <TableInfoDTO>
+              <option name="comment" value="Im message extend table" />
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="im message extend primary id" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="message no (unique)" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="messageNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="content type" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="contentType" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="content" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="content" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="create time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="createTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="update time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="updateTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="ImMessageExtend" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="chatbot-web" />
+              <option name="savePackageName" value="com.evydtech.chatbot.im.domain.repository" />
+              <option name="savePath" value="./chatbot-web/src/main/java/com/evydtech/chatbot/im/domain/repository" />
+              <option name="templateGroupName" value="" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="hm_chatbot_dev.im_user">
+          <value>
+            <TableInfoDTO>
+              <option name="comment" value="Im user" />
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="im user primary id" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="user no (unique to replace id)" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="userNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="name" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="name" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="1: male 2: female 3:unkown" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="gender" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="1: online 2: offline" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="onlineStatus" />
+                    <option name="type" value="java.lang.Integer" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="create time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="createTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="update time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="updateTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="birthday" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="birthday" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="ImUser" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="chatbot-web" />
+              <option name="savePackageName" value="com.evydtech.chatbot.im.domain.repository" />
+              <option name="savePath" value="./chatbot-web/src/main/java/com/evydtech/chatbot/im/domain/repository" />
+              <option name="templateGroupName" value="" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+        <entry key="hm_chatbot_dev.im_user_extend">
+          <value>
+            <TableInfoDTO>
+              <option name="comment" value="Im user extend" />
+              <option name="fullColumn">
+                <list>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="im user extend primary id" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="id" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="user no" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="userNo" />
+                    <option name="type" value="java.lang.Long" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="nick name" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="nickName" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="country" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="country" />
+                    <option name="type" value="java.lang.String" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="create time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="createTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                  <ColumnInfoDTO>
+                    <option name="comment" value="update time" />
+                    <option name="custom" value="false" />
+                    <option name="ext">
+                      <map>
+                        <entry key="jdbcType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                        <entry key="sqlType">
+                          <value>
+                            <Object />
+                          </value>
+                        </entry>
+                      </map>
+                    </option>
+                    <option name="name" value="updateTime" />
+                    <option name="type" value="java.util.Date" />
+                  </ColumnInfoDTO>
+                </list>
+              </option>
+              <option name="name" value="ImUserExtend" />
+              <option name="preName" value="" />
+              <option name="saveModelName" value="chatbot-web" />
+              <option name="savePackageName" value="com.evydtech.chatbot.im.domain.repository" />
+              <option name="savePath" value="./chatbot-web/src/main/java/com/evydtech/chatbot/im/domain/repository" />
+              <option name="templateGroupName" value="" />
+            </TableInfoDTO>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
