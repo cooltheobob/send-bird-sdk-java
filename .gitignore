@@ -1,0 +1,65 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.mvn
+*.log
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### All moudle's jar ###
+*/.docker/*.jar
+*/.docker/nohup.out
+src/main/resources/static/
+src/main/resources/templates/
+
+### All module's application-dev.yaml ###
+*/src/main/resources/application-local.yaml
+
+### Device ###
+.DS_Store
+
+### Application docker jar ###
+.docker/*.jar
+
+### Application log ###
+log/
+
+### Gradlew ###
+# Gradle directories
+.gradle/
+# Compiled Java classes
+*.class
+# Temporary files
+*.tmp
+*.swp
+# User-specific files
+.gradle.kts
+# Dependency directories
+libs/
